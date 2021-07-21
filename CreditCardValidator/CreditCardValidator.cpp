@@ -13,8 +13,8 @@ CreditCardValidator::~CreditCardValidator() {
 }
 
 bool CreditCardValidator::OnInit() {
-	m_frame1 = new Main();
-	m_frame1->Show();
+	frame = new Main();
+	frame->Show();
 
 	return true;
 }

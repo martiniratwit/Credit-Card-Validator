@@ -11,7 +11,7 @@ public:
 	~CreditCardValidator();
 
 private:
-	Main* m_frame1 = nullptr;
+	Main* frame = nullptr;
 
 public:
 	virtual bool OnInit();
